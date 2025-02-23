@@ -1,0 +1,124 @@
+{
+  "offices": [
+    {
+      "id": "1",
+      "name": "New York City",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/NewYorkCity.jpg",
+      "officeTypeId": 3,
+      "officeOpenedOn": "2013-08-04T22:39:41.473Z",
+      "revenue": 54637122,
+      "isHeadOffice": true
+    },
+    {
+      "id": "2",
+      "name": "Los Angeles",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/LosAngeles.jpg",
+      "officeTypeId": 6,
+      "officeOpenedOn": "2016-06-26T18:24:01.706Z",
+      "revenue": 29729,
+      "isHeadOffice": false
+    },
+    {
+      "id": "3",
+      "name": "Chicago",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Chicago.jpg",
+      "officeTypeId": 4,
+      "officeOpenedOn": "2013-05-26T01:10:42.344Z",
+      "revenue": 4566024,
+      "isHeadOffice": false
+    },
+    {
+      "id": "4",
+      "name": "Houston",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Houston.jpg",
+      "officeTypeId": 2,
+      "officeOpenedOn": "2009-12-18T21:46:47.944Z",
+      "revenue": 81188,
+      "isHeadOffice": false
+    },
+    {
+      "id": "5",
+      "name": "Phoenix",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Phoenix.jpg",
+      "officeTypeId": 1,
+      "officeOpenedOn": "2016-11-14T19:19:53.624Z",
+      "revenue": 31350,
+      "isHeadOffice": false
+    },
+    {
+      "id": "6",
+      "name": "San Diego",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/SanDiego.jpg",
+      "officeTypeId": 2,
+      "officeOpenedOn": "2015-03-05T17:00:16.696Z",
+      "revenue": 67030,
+      "isHeadOffice": false
+    },
+    {
+      "id": "7",
+      "name": "Jacksonville, FL",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Jacksonville.jpg",
+      "officeTypeId": 3,
+      "officeOpenedOn": "2015-04-14T19:46:53.146Z",
+      "revenue": 98600,
+      "isHeadOffice": false
+    },
+    {
+      "id": "8",
+      "name": "Toronto",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Toronto.jpg",
+      "officeTypeId": 5,
+      "officeOpenedOn": "2011-10-16T08:07:32.217Z",
+      "revenue": 21205,
+      "isHeadOffice": false
+    },
+    {
+      "id": "9",
+      "name": "Montreal",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Montreal.jpg",
+      "officeTypeId": 3,
+      "officeOpenedOn": "2016-09-23T21:27:25.035Z",
+      "revenue": 53407,
+      "isHeadOffice": false
+    },
+    {
+      "id": "10",
+      "name": "Vancouver",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Vancouver.jpg",
+      "officeTypeId": 4,
+      "officeOpenedOn": "2016-04-02T02:40:48.906Z",
+      "revenue": 62703,
+      "isHeadOffice": false
+    },
+    {
+      "id": "11",
+      "name": "Calgary",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Calgary.jpg",
+      "officeTypeId": 2,
+      "officeOpenedOn": "2009-11-20T04:57:43.124Z",
+      "revenue": 742621,
+      "isHeadOffice": false
+    },
+    {
+      "id": "12",
+      "name": "Ottawa",
+      "description": "We have an office in this beautiful city",
+      "imageUrl": "/assets/Ottawa.jpg",
+      "officeTypeId": 1,
+      "officeOpenedOn": "2014-02-23T12:11:19.381Z",
+      "revenue": 79475,
+      "isHeadOffice": false
+    }
+  ]
+}

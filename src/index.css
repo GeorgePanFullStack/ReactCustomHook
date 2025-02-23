@@ -1,0 +1,29 @@
+@import '../node_modules/mini.css/dist/mini-default.min.css';
+
+/* import of mini.css here */
+
+form {
+  min-width: 300px;
+}
+/*add below existing styles*/
+
+html,
+body,
+#root,
+.container,
+.center-page {
+  height: 100%;
+}
+
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 5.1875rem;
+}
+
+a.button.active {
+  border: 1px solid var(--fore-color);
+}

@@ -1,0 +1,127 @@
+/* Reset some styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav {
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 60px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.nested-nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.nested-nav li {
+  list-style: none;
+}
+
+.nested-nav a {
+  color: blue;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nested-nav a:hover {
+  text-decoration: underline;
+}
+
+.custom-list li {
+  width:100px;
+  background: linear-gradient(135deg, #78a3f3, #4244af);
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: left;
+  gap: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.custom-list li:hover {
+  width:100px;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer; /* Hand cursor on hover */
+  background-color: #770c0c;
+  
+}
+
+.beautiful-button {
+  background-color: #4CAF50;    /* Green background */
+  border: none;                 /* No border */
+  color: white;                 /* White text */
+  padding: 15px 32px;           /* Top and bottom padding of 15px, left and right of 32px */
+  text-align: center;           /* Centered text */
+  text-decoration: none;        /* No underline */
+  display: inline-block;        /* Inline block for better layout */
+  font-size: 16px;              /* Font size */
+  margin: 4px 2px;              /* Margin for spacing */
+  cursor: pointer;              /* Pointer cursor on hover */
+  border-radius: 12px;          /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.beautiful-button:hover {
+  background-color: #45a049;    /* Darker green on hover */
+  transform: scale(1.05);       /* Slight scale effect on hover */
+}
+
+.beautiful-button:active {
+  transform: scale(0.95);       /* Scale down when clicked */
+}
+
+/* For data validation*/
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  width: 50%;
+}
